@@ -1,7 +1,7 @@
 body {
   text-align: center;
   font-family: "Happy Monkey", cursive;
-  background: linear-gradient(#84a98c, #52796f);
+  background: linear-gradient(#84a98c, #2f3e46);
   color: #ffffff;
 }
 
@@ -52,9 +52,13 @@ p {
   margin-top: 0;
 }
 
+#gift-img-cheers {
+  height: 400px;
+}
+
 .gift-img {
   margin: 20px auto;
-  max-width: 650px;
+  max-width: 600px;
   height: 500px;
   border: 6px solid #2f3e46;
   border-radius: 10px;
@@ -63,14 +67,31 @@ p {
 }
 
 #gift-img-happy:hover {
-  background-image: url("./images/happy.gif");
+  background-image: url("./images/happpy.gif");
 }
 
 #gift-img-shock:hover {
   background-image: url("./images/shock.gif");
 }
 
-#gift-img-genius:hover {
-  background-image: url("./images/geniuss.gif");
-  background-size: cover;
+#gift-img-cute:hover {
+  background-image: url("./images/cute.gif");
+}
+
+#gift-img-badass:hover {
+  background-image: url("./images/badass.gif");
+}
+
+#gift-img-cheers:hover {
+  background-image: url("./images/cheers.gif");
+}
+
+#footer {
+  font-style: italic;
+  width: 400px;
+  margin: 40px auto 20px;
+}
+
+a {
+  color: white;
 }
