@@ -95,3 +95,23 @@ p {
 a {
   color: white;
 }
+
+@media (max-width: 500px) {
+  .gift-img {
+    margin: 20px auto;
+    max-width: 250px;
+    height: 250px;
+    border: 6px solid #2f3e46;
+    border-radius: 10px;
+    background-image: url("./images/gift-covers.jpg");
+    background-size: cover;
+  }
+
+  body {
+    font-size: 14px;
+  }
+
+  #gift-img-cheers {
+    height: 150px;
+  }
+}
